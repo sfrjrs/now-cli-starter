@@ -1,0 +1,28 @@
+{
+  "name": "now-cli-starter-master",
+  "version": "1.0.0",
+  "description": "This is a simple project that makes a [static deployment](https://zeit.co/docs/deployment-types/static) to Now.",
+  "main": "api.js",
+  "scripts": {
+    "watch": "nodemon ./start.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sfrjrs/now-cli-starter.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sfrjrs/now-cli-starter/issues"
+  },
+  "homepage": "https://github.com/sfrjrs/now-cli-starter#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "pug": "^2.0.3"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.10"
+  }
+}
